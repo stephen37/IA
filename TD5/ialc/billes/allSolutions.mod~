@@ -1,0 +1,8 @@
+main {
+    thisOplModel.generate();
+    cp.startNewSearch();
+    while(cp.next()) {
+       thisOplModel.postProcess(); 
+    }
+
+}
